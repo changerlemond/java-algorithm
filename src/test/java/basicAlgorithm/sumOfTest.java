@@ -1,4 +1,4 @@
-import basicAlgorithm.sumof;
+package basicAlgorithm;
 
 public class sumOfTest {
 
