@@ -1,3 +1,5 @@
+import basicAlgorithm.sumof;
+
 public class sumOfTest {
 
     public static void main(String[] args) {

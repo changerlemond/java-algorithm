@@ -1,25 +1,27 @@
+package basicAlgorithm;
+
 import java.util.Scanner;
 
-public class SumVerbose1 {
+public class Alternative1 {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         int n;
 
-        System.out.println("1부터 n 까지의 합을 구합니다.");
+        System.out.println("홀수면 + 짝수면 - 로 표시합니다.");
 
         do {
             System.out.println("n의 값: ");
             n = scanner.nextInt();
         } while (n <= 0);
 
-        int sum = 0;
-
-        for (int i = 1; i <= n; i++) {
-            sum += i;
+        if (n % 2 != 0) {
+            System.out.print("+");
+        } else {
+            System.out.print("-");
         }
 
-        System.out.println("1부터 " + n + "까지의 합은 " + sum + "입니다.");
     }
 
 }

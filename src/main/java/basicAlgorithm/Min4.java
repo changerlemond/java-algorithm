@@ -1,3 +1,5 @@
+package basicAlgorithm;
+
 public class Min4 {
 
     static int min4(int a, int b, int c, int d) {

@@ -1,6 +1,8 @@
+package basicAlgorithm;
+
 public class sumof {
 
-    static int sumOf(int a, int b) {
+    public static int sumOf(int a, int b) {
 
         int min;
         int max;

@@ -1,3 +1,5 @@
+package basicAlgorithm;
+
 public class Multi99Table {
 
     public static void main(String[] args) {
